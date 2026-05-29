@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GP Medical Solutions</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <header class="navbar">
+        <div class="logo">GP Medical Solutions</div>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#contact" class="btn">Contact</a>
+        </nav>
+    </header>
+
+    <!-- HERO -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Premium Medical Equipment for Modern Healthcare</h1>
+            <p>Trusted solutions for clinics, hospitals, and medical professionals nationwide.</p>
+            <a href="https://www.ebay.com/usr/gpmedicalsales" class="hero-btn" target="_blank">
+                View Products on eBay
+            </a>
+        </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="about">
+        <h2>About Us</h2>
+        <p>GP Medical Solutions provides premium medical equipment with a focus on quality, reliability, and long‑term support. We proudly serve healthcare facilities across the United States.</p>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <p>Have questions or need equipment? Reach out anytime.</p>
+
+        <p><strong>Email:</strong> <a href="mailto:gus@gpmedicalsales.com">gus@gpmedicalsales.com</a></p>
+        <p><strong>Phone:</strong> <a href="tel:7189157713">(718) 915‑7713</a></p>
+
+        <a href="mailto:gus@gpmedicalsales.com" class="contact-btn">Email Us</a>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <p>© 2026 GP Medical Solutions. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
