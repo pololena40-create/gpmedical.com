@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+body {
+    background: #f7f9fc;
+    color: #1a1a1a;
+}
+
+/* NAVBAR */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+    background: white;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.logo {
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+
+nav a {
+    margin-left: 25px;
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+}
+
+nav .btn {
+    padding: 8px 16px;
+    background: #0077ff;
+    color: white;
+    border-radius: 6px;
+}
+
+/* HERO */
+.hero {
+    height: 70vh;
+    background: linear-gradient(to bottom right, #0077ff, #00c6ff);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 25px;
+}
+
+.hero-btn {
+    padding: 12px 24px;
+    background: white;
+    color: #0077ff;
+    border-radius: 8px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+/* SECTIONS */
+section {
+    padding: 80px 60px;
+}
+
+h2 {
+    font-size: 2.2rem;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+/* SERVICES */
+.service-grid {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+.service-card {
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    width: 300px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    text-align: center;
+}
+
+/* PRODUCTS */
+.product-grid {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+.product-card {
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    width: 300px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    text-align: center;
+}
+
+.product-img {
+    height: 150px;
+    background: #e3e9f1;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+/* CONTACT */
+.contact {
+    text-align: center;
+}
+
+.contact-btn {
+    padding: 12px 24px;
+    background: #0077ff;
+    color: white;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+/* FOOTER */
+.footer {
+    text-align: center;
+    padding: 20px;
+    background: #eef2f7;
+    font-size: 0.9rem;
+}
